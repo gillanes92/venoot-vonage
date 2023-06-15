@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        @apply font-sans text-xl leading-5 font-normal antialiased text-secondary bg-[#111111];
+        font-synthesis: none;
+        -webkit-text-size-adjust: 100%;
+    }
+
+    select {
+        @apply border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 focus:ring-primary focus:border-primary;
+    }
+
+    video {
+        height: unset;
+    }
+}
